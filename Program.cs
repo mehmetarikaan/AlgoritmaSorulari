@@ -51,7 +51,7 @@ for (int i = 0; i < sayilar1.Length; i++)
 }
 
 Console.WriteLine("*****************");
-Console.WriteLine("Bir konsol uygulamasında kullanıcıdan pozitif bir sayı girmesini isteyin (n). Sonrasında kullanıcıdan n adet kelime girmesi isteyin. Kullanıcının girişini yaptığı kelimeleri sondan başa doğru console'a yazdırın.");
+Console.WriteLine("Üçüncü Ödev: Bir konsol uygulamasında kullanıcıdan pozitif bir sayı girmesini isteyin (n). Sonrasında kullanıcıdan n adet kelime girmesi isteyin. Kullanıcının girişini yaptığı kelimeleri sondan başa doğru console'a yazdırın.");
 
 Console.Write("Bir sayı gir kankam: ");
 int sayim = int.Parse(Console.ReadLine());
@@ -69,10 +69,25 @@ foreach (string kelime in kelimeDizisi)
     Console.WriteLine(kelime);
 }
 
-Array.Reverse(kelimeDizisi);
+Array.Reverse(kelimeDizisi); // reverse ile dizideki elemanları tersten yazdırdım.
 
 foreach(string kelime in kelimeDizisi)
 {
  Console.Write("" + kelime);
 }
+
+Console.WriteLine("*****************");
+Console.WriteLine("Bir konsol uygulamasında kullanıcıdan bir cümle yazması isteyin. Cümledeki toplam kelime ve harf sayısını console'a yazdırın.");
+
+
+
+Console.Write("Bir cümle gir kanka:");
+string cumle = Convert.ToString(Console.ReadLine()); // cümle aldım
+string[] kelimeler = cumle.Split(" "); // cümleyi kelimelere ayırdım.
+char[] harf = cumle.ToCharArray(); // cümleyi harflerine ayırdım
+
+Console.WriteLine("Verilen Cümlede {0} Kelime Vardır.", kelimeler.Length);
+Console.WriteLine("Verilen Cümlede {0} harf Vardır.", harf.Length);
+
+
 
