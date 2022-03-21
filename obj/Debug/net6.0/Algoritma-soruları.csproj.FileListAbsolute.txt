@@ -1,0 +1,15 @@
+C:\Users\HP\Documents\Projects\Net\Algoritma-soruları\obj\Debug\net6.0\Algoritma-soruları.csproj.AssemblyReference.cache
+C:\Users\HP\Documents\Projects\Net\Algoritma-soruları\obj\Debug\net6.0\Algoritma-soruları.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Documents\Projects\Net\Algoritma-soruları\obj\Debug\net6.0\Algoritma-soruları.AssemblyInfoInputs.cache
+C:\Users\HP\Documents\Projects\Net\Algoritma-soruları\obj\Debug\net6.0\Algoritma-soruları.AssemblyInfo.cs
+C:\Users\HP\Documents\Projects\Net\Algoritma-soruları\obj\Debug\net6.0\Algoritma-soruları.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\Projects\Net\Algoritma-soruları\bin\Debug\net6.0\Algoritma-soruları.exe
+C:\Users\HP\Documents\Projects\Net\Algoritma-soruları\bin\Debug\net6.0\Algoritma-soruları.deps.json
+C:\Users\HP\Documents\Projects\Net\Algoritma-soruları\bin\Debug\net6.0\Algoritma-soruları.runtimeconfig.json
+C:\Users\HP\Documents\Projects\Net\Algoritma-soruları\bin\Debug\net6.0\Algoritma-soruları.dll
+C:\Users\HP\Documents\Projects\Net\Algoritma-soruları\bin\Debug\net6.0\Algoritma-soruları.pdb
+C:\Users\HP\Documents\Projects\Net\Algoritma-soruları\obj\Debug\net6.0\Algoritma-soruları.dll
+C:\Users\HP\Documents\Projects\Net\Algoritma-soruları\obj\Debug\net6.0\refint\Algoritma-soruları.dll
+C:\Users\HP\Documents\Projects\Net\Algoritma-soruları\obj\Debug\net6.0\Algoritma-soruları.pdb
+C:\Users\HP\Documents\Projects\Net\Algoritma-soruları\obj\Debug\net6.0\Algoritma-soruları.genruntimeconfig.cache
+C:\Users\HP\Documents\Projects\Net\Algoritma-soruları\obj\Debug\net6.0\ref\Algoritma-soruları.dll
