@@ -1,6 +1,6 @@
 ﻿Console.WriteLine("**** Patika.dev - C# 101 -Algoritma Soruları ******");
 Console.WriteLine("*****************");
-Console.WriteLine("Birinci ödev: Bir konsol uygulamasında kullanıcıdan pozitif bir sayı girmesini isteyin(n). Sonrasında kullanıcıdan n adet pozitif sayı girmesini isteyin. Kullanıcının girmiş olduğu sayılardan çift olanlar console'a yazdırın.");
+Console.WriteLine("Birinci Soru: Bir konsol uygulamasında kullanıcıdan pozitif bir sayı girmesini isteyin(n). Sonrasında kullanıcıdan n adet pozitif sayı girmesini isteyin. Kullanıcının girmiş olduğu sayılardan çift olanlar console'a yazdırın.");
 
 Console.Write("Bir sayı gir: ");
 int sayi = int.Parse(Console.ReadLine());
@@ -19,11 +19,12 @@ for (int i = 0; i < sayilar.Length; i++)
     if(kalan==0){
         Console.WriteLine(sayilar[i]);
     }else{
+    
     }
 }
 
 Console.WriteLine("*****************");
-Console.WriteLine("İkinci ödev: Bir konsol uygulamasında kullanıcıdan pozitif iki sayı girmesini isteyin (n, m). Sonrasında kullanıcıdan n adet pozitif sayı girmesini isteyin. Kullanıcının girmiş olduğu sayılardan m'e eşit yada tam bölünenleri console'a yazdırın.");
+Console.WriteLine("İkinci Soru: Bir konsol uygulamasında kullanıcıdan pozitif iki sayı girmesini isteyin (n, m). Sonrasında kullanıcıdan n adet pozitif sayı girmesini isteyin. Kullanıcının girmiş olduğu sayılardan m'e eşit yada tam bölünenleri console'a yazdırın.");
 
 Console.Write("Bir sayı gir: ");
 int n = int.Parse(Console.ReadLine());
@@ -46,6 +47,32 @@ for (int i = 0; i < sayilar1.Length; i++)
     if(sayilar[i]%m == 0 || sayilar[i] == m ){
         Console.WriteLine(sayilar[i]);
     }else{
-        Console.WriteLine("Kriterleri sağlayan sayı bulunamadı");
     }
 }
+
+Console.WriteLine("*****************");
+Console.WriteLine("Bir konsol uygulamasında kullanıcıdan pozitif bir sayı girmesini isteyin (n). Sonrasında kullanıcıdan n adet kelime girmesi isteyin. Kullanıcının girişini yaptığı kelimeleri sondan başa doğru console'a yazdırın.");
+
+Console.Write("Bir sayı gir kankam: ");
+int sayim = int.Parse(Console.ReadLine());
+
+
+string[] kelimeDizisi = new string[sayim];
+
+for (int i = 0; i < sayim; i++)
+{
+    Console.Write("Bir kelime gir kanka:");
+    kelimeDizisi[i] = Convert.ToString(Console.ReadLine());
+}
+foreach (string kelime in kelimeDizisi)
+{
+    Console.WriteLine(kelime);
+}
+
+Array.Reverse(kelimeDizisi);
+
+foreach(string kelime in kelimeDizisi)
+{
+ Console.Write("" + kelime);
+}
+
