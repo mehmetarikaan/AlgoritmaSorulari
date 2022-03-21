@@ -9,7 +9,7 @@ int[] sayilar = new int[sayi];
 
 for (int i = 0; i < sayi; i++)
 {
-    Console.Write(+ (i) + ". sayiyi gir:");
+    Console.Write(+ (i+1) + ". sayiyi gir:");
     sayilar[i] = Convert.ToInt32(Console.ReadLine());
 }
 
@@ -25,5 +25,27 @@ for (int i = 0; i < sayilar.Length; i++)
 Console.WriteLine("*****************");
 Console.WriteLine("İkinci ödev: Bir konsol uygulamasında kullanıcıdan pozitif iki sayı girmesini isteyin (n, m). Sonrasında kullanıcıdan n adet pozitif sayı girmesini isteyin. Kullanıcının girmiş olduğu sayılardan m'e eşit yada tam bölünenleri console'a yazdırın.");
 
+Console.Write("Bir sayı gir: ");
+int n = int.Parse(Console.ReadLine());
 
+Console.Write("Bir sayı daha gir kanka: ");
+int m = int.Parse(Console.ReadLine());
 
+int[] sayilar1 = new int[n];
+
+for (int i = 0; i < n; i++)
+{
+    Console.Write(+ (i+1) + ". sayiyi gir kankam:");
+    sayilar1[i] = Convert.ToInt32(Console.ReadLine());
+}
+
+for (int i = 0; i < sayilar1.Length; i++)
+{
+    int kalan = sayilar1[i]%2;
+
+    if(sayilar[i]%m == 0 || sayilar[i] == m ){
+        Console.WriteLine(sayilar[i]);
+    }else{
+        Console.WriteLine("Kriterleri sağlayan sayı bulunamadı");
+    }
+}
